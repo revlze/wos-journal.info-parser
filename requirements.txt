@@ -1,0 +1,9 @@
+beautifulsoup4
+selenium
+soupsieve
+urllib3
+transliterate
+scikit-learn
+pandas
+logging
+lxml
