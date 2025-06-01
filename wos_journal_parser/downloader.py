@@ -35,6 +35,8 @@ class Downloader:
     self.driver = None
     self.files_dir = None
     
+    self.create_raw_dir()
+    
   def create_raw_dir(self):
     self.files_dir = (self.data_path / 'raw')
     self.logger.info(f"Created directory: {self.files_dir.absolute()}")
