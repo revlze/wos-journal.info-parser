@@ -16,7 +16,7 @@ An example of working code is in `main.py`
 
 python>=3.9
 
-In order for the selenium library to simulate a browser, you need to have the [Firefox]((https://www.mozilla.org/en-US/firefox/new/)) browser pre-installed and the [gekodriver.exe]((https://github.com/mozilla/geckodriver/releases)) file, then specify the `path` to gekodriver on your computer in the `config.py` file.
+In order for the selenium library to simulate a browser, you need to have the [Firefox](https://www.mozilla.org/en-US/firefox/new/) browser pre-installed and the [gekodriver.exe](https://github.com/mozilla/geckodriver/releases) file, then specify the `path` to gekodriver on your computer in the `config.py` file.
 
 ---
 Example:
