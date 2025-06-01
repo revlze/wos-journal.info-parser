@@ -7,9 +7,8 @@ from wos_journal_parser.serializer import JournalSerializer
 logger = logging.getLogger(__name__)
 
 logger.info(f"Starting downloader")
-# with Downloader() as d:
-#   d.create_raw_dir()
-#   d.download()
+with Downloader() as d:
+  d.download()
 
 parser = JournalHtmlParser()
 journals = parser.parse_journals()
